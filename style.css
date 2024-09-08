@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* General body styling */
+body {
+    font-family: 'DM Serif Text', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: flex; */
+}
+.container-fluid{
+    display: flex;
+    background-color: #27052b;
+    color: white;
+}
+.container-fluid h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 20vh;
+    padding: 5px;
+}
+.container-fluid a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20vh;
+    padding: 8px;
+    font-weight: bold;
+    font-size:25px ;
+}
+
+/* Box styling */
+.box0 {
+    display: flex;
+    flex-direction: column;
+    background-color: #03101c;
+    height: 270vh;
+}
+
+.box1 {
+    background-image:url(programmer.jpeg);
+    height: 350px;
+    width: 150vh;
+    margin-top: 20px;
+    margin-left: 28vh;
+    border-radius:10px;
+    background-size: cover;
+}
+img{
+    width:220px;
+    height:210px;
+    margin-left:55vh;
+    margin-top:35vh;
+    border-radius: 50vh;
+    background-size: cover;
+}
+.name h1{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    margin-left: 75vh;
+    margin-top: 20vh;
+}
+.name h4{
+    color: white;
+    font-size: 28px;
+    margin-left: 25vh;
+    margin-top: 5vh;
+}
+.name h3{
+    color: antiquewhite;
+    font-size: 25px;
+    margin-left: 25vh;
+    margin-top: 5vh;
+}
+.name p{
+    color: antiquewhite;
+    font-size: 15px;
+    margin-left: 25vh;
+    margin-top: 1vh;
+}
+.downlode{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+.preview{
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+.dev h1{
+    color: rgb(233, 164, 164);
+    margin-left: 25vh;
+    font-size: 30px;
+}
+ .dev hr{
+    color: white;
+    width: 160vh;
+    margin-left: 25vh;
+}
+.Address{
+  display: flex;
+  margin-top: 2vh;
+}
+.main-X{
+    position: relative;
+    background-color: rgb(12, 35, 58);
+    height: 400px;
+    width: 350px;
+    margin-left: 28vh;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.main-X:hover{
+   background-color: rgb(30, 59, 89);
+   transition: background-color 0.5s ease;
+}
+.dev_card{
+    position: absolute;
+    background-image: url(image.jpg);
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.main-X h1{
+    position:absolute;
+    color: rgb(231, 224, 224);
+    font-size: 30px;
+    margin-top: 28vh;
+    margin-left: 5px; 
+}
+.main-X h6{
+    position:absolute;
+    color: rgb(203, 46, 46);
+    font-size: 10px;
+    margin-top: 34vh;
+    margin-left: 10px;
+    background-color: antiquewhite; 
+    border-radius: 2px;
+}
+.dev_main1{
+  display: flex;
+}
+.dev_main0 h1{
+    position:absolute;
+    color: rgb(231, 224, 224);
+    font-size: 30px;
+    margin-top: 28vh;
+    margin-left: 5px; 
+}
+.dev_main0 h6{
+    position:absolute;
+    color: rgb(203, 46, 46);
+    font-size: 10px;
+    margin-top: 34vh;
+    margin-left: 10px;
+    background-color: antiquewhite; 
+    border-radius: 2px;
+}
+.dev_main0{
+    position: relative;
+    background-color: rgb(12, 35, 58);
+    height: 400px;
+    width: 350px;
+    margin-left: 35vh;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.dev_main0:hover{
+    background-color: rgb(30, 59, 89);
+    transition: background-color 0.5s ease;
+ }
+ .dev_card2{
+    position: absolute;
+    background-image: url(club.jpeg);
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.second-{
+ display: flex;   
+}
+.dev_main01 h1{
+    position:absolute;
+    color: rgb(231, 224, 224);
+    font-size: 30px;
+    margin-top: 28vh;
+    margin-left: 5px; 
+}
+.dev_main01 h6{
+    position:absolute;
+    color: rgb(203, 46, 46);
+    font-size: 10px;
+    padding: 1.5px;
+    margin-top: 34vh;
+    margin-left: 10px;
+    background-color: antiquewhite; 
+    border-radius: 2px;
+}
+.dev_main01{
+    position: relative;
+    background-color: rgb(12, 35, 58);
+    height: 400px;
+    width: 350px;
+    margin-left:28vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+.dev_main02:hover{
+    background-color: rgb(30, 59, 89);
+    transition: background-color 0.5s ease;
+ }
+ .dev_card3{
+    position: absolute;
+    background-image: url(weeb.jpeg);
+    height: 200px;
+    width: 350px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.dev_main01:hover{
+    background-color: rgb(30, 59, 89);
+    transition: background-color 0.5s ease;
+ }
+ .hr1{
+    color: white;
+    width: 160vh;
+    font-weight: bold;
+    margin-left: 25vh;
+    margin-top: 2.5vh;
+    
+ }
+ .footer{   
+    background-color: rgb(20, 33, 48);
+    height: 30vh;
+    width: 70%;
+    margin-left: 35vh;
+    border-radius: 20px;
+    margin-top: 2.5vh;
+    border: 0.5px solid white;
+ }
+ .footer h1{
+    color: white;
+    font-size: 40px;
+    /* margin-left: 5vh; */
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ .footer i{
+    text-decoration: none;
+    margin-left: 8vh;
+    color: white;
+    font-size: 30px;
+    /* padding: 5px; */
+ }
+ .face{
+    margin-left: 35vh;
+ }
+.footer p{
+    color: white;
+    font-size:25px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    
+    .box0 {
+        width: 156vh;
+        height:890vh;
+    }
+    .container-fluid{
+        list-style: none;
+        display: flex;
+        background-color: #27052b;
+        color: white;
+    }
+    .container-fluid h1{
+        color: white;
+        font-size: 35px;
+        margin-left: 4vh;
+        padding: 8px;
+    }
+    .container-fluid a{
+        color: white;
+        text-decoration: none;
+        margin-left: 16vh;
+        padding: 5px;
+        font-weight: bold;
+        font-size:30px ;
+    }
+
+    .box1 {
+    background-image:url(programmer.jpeg);
+    height: 702px;
+    width: 152vh;
+    margin-left: 2vh;
+    border-radius:10px;
+    background-size: cover;
+    }
+
+    img{
+        width:100vh;
+        height:100vh;
+        margin-left:30vh;
+        margin-top:55vh;
+        border-radius: 50vh;
+        background-size: cover;
+    }
+    .name h1{
+        display: flex;
+        color: white;
+        font-size: 91px;
+        margin-left: 20vh;
+        margin-top: 65vh;
+    }
+    .name h4{
+        color: white;
+        font-size: 63px;
+        margin-left: 11vh;
+        margin-top: 5vh;
+    }
+    .name h3{
+        color:#ed8f13;
+        font-size: 58px;
+        margin-left: 11vh;
+        margin-top: 5vh;
+    }
+    .name p{
+        color: antiquewhite;
+        font-size: 35px;
+        margin-left: 11vh;
+        margin-top: 1vh;
+    }
+    .downlode{
+        text-decoration: none;
+        color: rgb(233, 144, 19);
+        padding: 3px;
+    }
+    .preview{
+        text-decoration: none;
+        color: rgb(246, 255, 78);
+        padding: 3px;
+    }
+    .dev h1{
+        color: rgb(233, 164, 164);
+        margin-left: 10vh;
+        font-size: 47px;
+    }
+    .dev hr{
+        margin-top: 5vh;
+        width: 130vh;
+        margin-left: 11vh;
+       
+    }
+    .Address{
+        display: flex;
+        flex-direction:column;
+      }
+    .main-X{
+        background-color: rgb(5,19,33);
+        height: 156vh;
+        width: 132vh;
+        margin-left: 11vh;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        cursor: pointer;
+        margin-top: 5vh;
+    }
+    .main-X:hover{
+       background-color: rgb(30, 59, 89);
+       transition: background-color 0.5s ease;
+    }
+    .dev_card{
+        position: absolute;
+        background-image: url(image.jpg);
+        height: 82vh;
+        width: 132vh;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    .main-X h1{
+        color: rgb(231, 224, 224);
+        font-size: 93px;
+        margin-top: 85vh;
+        margin-left: 5px; 
+    }
+    .main-X h6{
+        /* color: rgb(203, 46, 46); */
+        font-size: 53px;
+        margin-top: 107vh;
+        margin-left: 15px;
+        /* background-color: antiquewhite;  */
+        border-radius: 2px;
+    }
+    .dev_main1{
+      display: flex;
+      flex-direction: column-reverse;
+      height: 156vh;
+      margin-top: 20vh;
+    }
+    .dev_main0 h1{
+        position:absolute;
+        color: rgb(231, 224, 224);
+        font-size: 93px;
+        margin-top: 88vh;
+        margin-left: 15px; 
+    }
+    .dev_main0 h6{
+        position:absolute;
+        color: rgb(203, 46, 46);
+        font-size: 45px;
+        margin-top: 107vh;
+        margin-left: 10px;
+        background-color: antiquewhite; 
+        border-radius: 2px;
+    }
+    .dev_main0{
+        position: relative;
+        background-color: rgb(5,19,33);
+        height: 200000vh;
+        width: 132vh;
+        margin-left: 11vh;
+        border-radius: 10px;
+        transition: background-color 0.5s ease;
+        cursor: pointer;
+    }
+    .dev_card2{
+        position: absolute;
+        background-image: url(club.jpeg);
+        height: 88vh;
+        width: 132vh;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    .dev_main0:hover{
+        background-color: rgb(30, 59, 89);
+        transition: background-color 0.5s ease;
+     }
+     
+    .second-{
+        display: flex;
+    }
+    .dev_main01 h1{
+        position:absolute;
+        color: rgb(231, 224, 224);
+        font-size: 110px;
+        margin-top: 72vh;
+        margin-left: 15px; 
+    }
+    .dev_main01 h6{
+        position:absolute;
+        color: rgb(203, 46, 46);
+        font-size: 56px;
+        padding: 12.5px;
+        margin-top: 96vh;
+        margin-left: 15px;
+        background-color: antiquewhite; 
+        border-radius: 2px;
+    }
+    .dev_main02:hover{
+        background-color: rgb(30, 59, 89);
+        transition: background-color 0.5s ease;
+     }
+     .dev_card3{
+        position: absolute;
+        background-image: url(weeb.jpeg);
+        height: 69vh;
+        width: 132vh;
+        border-radius: 10px;
+        background-size: cover;
+    }
+    .dev_main01{
+        position: relative;
+        background-color: rgb(5,19,33);
+        height: 156vh;
+        width: 132vh;
+        margin-left: 11vh;
+        border-radius: 10px;
+        margin-top: 20vh;
+        transition: background-color 0.5s ease;
+        cursor: pointer;
+    }
+    .dev_main01:hover{
+        background-color: rgb(30, 59, 89);
+        transition: background-color 0.5s ease;
+     }
+     .hr1{
+        color: white;
+        width: 130vh;
+        font-weight: bold;
+        margin-left: 12vh;
+        margin-top: 18vh;
+        
+     }
+     .footer{
+        background-color: #050a2b;
+        height: 200vh;
+        width: 130vh;
+        margin-left: 13vh;
+        margin-top: 8vh;
+        margin-bottom: 20vh;
+        border-radius: 20px;
+        /* box-shadow: 5px 5px 5px lightblue; */
+      }
+      
+     .footer h1{
+        color: white;
+        font-size: 80px;
+        padding: 10px;
+        margin-right: 0vh;
+        margin-top: 20px;
+       
+     }
+     .footer i{
+        text-decoration: none;
+        margin-left: 8vh;
+        margin-top: 2vh;
+        color: white;
+        font-size:80px;
+        /* padding: 5px; */
+     }
+     .face{
+        margin-left: 12vh;
+     }
+     .footer p{
+        color: white;
+        font-size:45px;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+}

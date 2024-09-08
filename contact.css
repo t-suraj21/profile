@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: 'DM Serif Text', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+    color: #330f0f;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container-fluid11 {
+    background-color: #111e2bc7;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.container-fluid11 h1 {
+    color: #040117;
+    font-weight: bolder;
+}
+
+.container-fluid11 a {
+    color: #2e0a0a;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight:bold;
+}
+
+.container-fluid11 a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Form Styles */
+.form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form .form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styles */
+.footer3 {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer3 h1 {
+    margin-bottom: 20px;
+}
+
+.footer3 a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.footer3 a:hover {
+    color: #007bff;
+}
+
+.footer3 p {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .container-fluid11 {
+        text-align: center;
+    }
+
+    .container-fluid11 a {
+        display: block;
+        margin: 10px 0;
+        font-size: 1rem;
+    }
+
+    .form {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .footer3 {
+        padding: 20px 10px;
+    }
+
+    .footer3 a {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .form h1 {
+        font-size: 1.5rem;
+    }
+
+    .footer3 h1 {
+        font-size: 1.2rem;
+    }
+
+    .footer3 a {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    display: flex;
+    background-color: #27052b;
+    color: white;
+}
+.container-fluid h1{
+    color: white;
+    font-size: 40px;
+    margin-left: 20vh;
+    padding: 5px;
+}
+.container-fluid a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20vh;
+    padding: 8px;
+    font-weight: bold;
+    font-size:25px ;
+}
+
+.about_main3{
+    display: flex;
+    color: white;
+    font-size: 60px;
+    margin-left:55vh;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 33vh;
+ }
+ /* .about_main4{
+    background-color: rgb(31, 50, 67);
+    color: rgb(219, 209, 209);
+    height: 150px;
+    width: 150vh;
+    border-radius: 5px;
+    border: 0.1px solid yellowgreen;
+    margin-top: 5vh;
+ }
+ .about_main4:hover{
+    background-color: rgb(13, 37, 50);
+    transition: background-color 0.5s ease;
+ } */
+ .about_main4 p{
+    display: flex;
+    justify-content: center;
+    color: white;
+  font-size: 26px;
+  padding: 4px;
+
+ }
+ .about_main{
+    display: flex;
+    flex-direction: column;
+    background-color: #031f3a;
+    height: 220vh;
+    width:100%;
+ }
+ .about_main2{
+    background-image:url(abouttttt.jpeg);
+    height: 250px;
+    width: 150vh;
+    margin-left: 30vh;
+    border-radius:10px;
+    margin-top: 20px;
+    background-size: cover;
+ }
+ .about_main8{
+    display:block;
+    background-color: rgb(6, 37, 39);
+    height: 520px;
+    width: 700px;
+    margin-left: 30vh;
+    margin-top: 55vh;
+    border-radius: 10px;
+    border: 0.5px solid white;
+ }
+ .about_main8:hover{
+    background-color: rgb(7, 16, 25);
+    transition: background-color 0.5s ease;
+ }
+ .hr3{
+    color: white;
+    width: 150vh;
+    margin-top: 8vh;
+
+}
+.footer2{   
+    background-color: rgb(20, 33, 48);
+    height: 30vh;
+    width: 70%;
+    margin-left: 35vh;
+    border-radius: 20px;
+    margin-top: 15vh;
+    border: 0.5px solid white;
+ }
+ .footer2 h1{
+    color: white;
+    font-size: 40px;
+    /* margin-left: 5vh; */
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+ }
+ .footer2 i{
+    text-decoration: none;
+    margin-left: 8vh;
+    color: white;
+    font-size: 30px;
+    /* padding: 5px; */
+ }
+ .face{
+    margin-left: 35vh;
+ }
+.footer2 p{
+    color: white;
+    font-size:25px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* code panel */
+
+code {
+    display:block; 
+    color: #ffffff;
+    border-radius: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-align: left;
+    line-height: 1.5;
+    white-space: pre; 
+}
+.type{
+    color: blue;
+    font-size: 15px;
+    font-weight:bold;
+}
+span{
+    color: blue;
+}
+.fun{
+    color: red;
+    font-weight: bold;
+}
+.Mn{
+  color: green;
+  font-weight: bold;
+}
+.hr4{
+    color: white;
+    width: 152vh;
+    margin-top: 8vh;
+}
+
+/* Syntax highlighting for Go code */
+.token.keyword {
+    color: #569cd6; /* Blue for keywords like type, struct, func */
+}
+
+.token.function {
+    color: #dcdcaa; /* Yellow for functions */
+}
+
+.token.string {
+    color: #ce9178; /* Light brown for strings */
+}
+
+.token.builtin {
+    color: #4ec9b0; /* Greenish-cyan for built-in types like int, string */
+}
+
+.token.punctuation {
+    color: #dcdcdc;
+
+} 
+
+
+@media (max-width: 480px){
+    .container-fluid{
+        display: flex;
+        background-color: #27052b;
+        color: white;
+    }
+    .container-fluid h1{
+        color: white;
+        font-size: 45px;
+        margin-left: 5vh;
+        padding: 5px;
+    }
+    .container-fluid a{
+        color: white;
+        text-decoration: none;
+        margin-left: 10vh;
+        padding: 8px;
+        font-weight: bold;
+        font-size:25px ;
+    }
+    
+    .about_main3{
+        display: flex;
+        color: white;
+        font-size: 60px;
+        margin-left:50vh;
+        font-weight: bold;
+        padding: 10px;
+        margin-top: 37vh;
+     }
+     /* .about_main4{
+        background-color: rgb(31, 50, 67);
+        color: rgb(219, 209, 209);
+        height: 94vh;
+        width: 150vh;
+        border-radius: 5px;
+        border: 0.1px solid yellowgreen;
+        margin-top: 5vh;
+     }
+     .about_main4:hover{
+        background-color: rgb(13, 37, 50);
+        transition: background-color 0.5s ease;
+     } */
+     .about_main4 p{
+        color: white;
+        display: flex;
+        justify-content: center;
+      font-size: 56px;
+      padding: 4px;
+    
+     }
+     .about_main{
+        display: flex;
+        flex-direction: column;
+        background-color:#031527;
+        height: 397vh;
+        width:155vh;
+     }
+     .about_main2{
+        background-image:url(abouttttt.jpeg);
+        height: 250px;
+        width: 150vh;
+        margin-left: 3vh;
+        border-radius:10px;
+        margin-top: 20px;
+        background-size: cover;
+     }
+     .about_main8{
+        display:block;
+        background-color:rgb(8 24 25 / 89%);
+        height: 114vh;
+        width: 150vh;
+        margin-left: 3vh;
+        margin-top: 132vh;
+        border-radius: 10px;
+        border: 0.5px solid white;
+     }
+     .about_main8:hover{
+        background-color: rgb(7, 16, 25);
+        transition: background-color 0.5s ease;
+     }
+     .hr3{
+        color: white;
+        width: 150vh;
+        margin-top: 8vh;
+    
+    }
+    .footer2{   
+        background-color: rgb(20, 33, 48);
+        height: 50vh;
+        width: 86%;
+        margin-left: 10vh;
+        border-radius: 20px;
+        margin-top: 44vh;
+        border: 0.5px solid white;
+     }
+     .footer2 h1{
+        color: white;
+        font-size: 77px;
+        /* margin-left: 5vh; */
+        padding: 10px;
+        margin-top: 20px;
+        text-align: center;
+     }
+     .footer2 i{
+        text-decoration: none;
+        margin-left: 6vh;
+        color: white;
+        font-size: 35px;
+        /* padding: 5px; */
+     }
+     .face{
+        margin-left: 35vh;
+     }
+    .footer2 p{
+        color: white;
+        font-size:35px;
+        padding: 10px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    /* code panel */
+    
+    code {
+        display:block; 
+        color: #ffffff;
+        border-radius: 8px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        text-align: left;
+        line-height: 1.5;
+        white-space: pre; 
+    }
+    .type{
+        color:#98ff00b3;
+        font-size: 42px;
+        font-weight:bold;
+    }
+    span{
+        color:#60b0af;
+    }
+    .fun{
+        color: red;
+        font-weight: bold;
+    }
+    .Mn{
+      color: green;
+      font-weight: bold;
+    }
+    .hr4{
+        color: white;
+        width: 152vh;
+        margin-top: 34vh;
+    }
+    
+    /* Syntax highlighting for Go code */
+    .token.keyword {
+        color: #569cd6; /* Blue for keywords like type, struct, func */
+    }
+    
+    .token.function {
+        color: #dcdcaa; /* Yellow for functions */
+    }
+    
+    .token.string {
+        color: #ce9178; /* Light brown for strings */
+    }
+    
+    .token.builtin {
+        color: #4ec9b0; /* Greenish-cyan for built-in types like int, string */
+    }
+    
+    .token.punctuation {
+        color: #dcdcdc;} 
+    
+}
